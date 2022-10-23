@@ -1,0 +1,167 @@
+/*#########################    HEADER      ###########################*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 32px;
+}
+
+/*###################   DABBA #############################*/
+
+.dabba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 50vh;
+}
+.para{
+width: 450px;
+padding: 50px;
+margin-right: 100px;
+}
+.para-img{
+margin-left: 100px;
+width: 600px;
+}
+.para h1, 
+.para p{
+color: #f9faf8;
+margin:8px ;
+}
+.para h1{
+    font-size: 4;
+    /* color: #f9faf8; */
+}
+.dabba button{
+    height: 32px;
+    width: 80px;
+    margin: 8px;
+    color:#e5e7eb;
+    background-color:#3882f6;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #f9faf8;
+}
+.dabba a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+/*#####################  INFORMATION ######################*/
+.info h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin:48px;
+}
+.picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border:4px solid #3883f6;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    height: 300px;
+}
+.ping{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+.ping p{
+    color: #1f2937;
+}
+
+/*############################# QUOTES ###########################*/
+.quo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #e5e7eb;
+
+}
+.quotes{
+    width: 1000px;
+    display: flex;
+    height: 11vh;
+    font-size: 32px;
+    flex-direction: column;
+}
+.quotes p:nth-child(2){
+    display: flex;
+font-weight: bold;
+    justify-self: flex-end;
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+
+/*################# MESSAGE ##########################*/
+.msg{
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    /* background-color: rebeccapurple; */
+}
+.msg-dabba{
+    display: flex;
+    width: 50vw;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+.msg button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border:2px solid #f9faf8;
+border-radius: 12px;
+height: 40px;
+width: 100px;
+font-weight: bold;
+
+}
+
+.msg a{
+    color: #f9faf8;
+    text-decoration: none;
+
+}
+/*#######################     FOOTER    #########################*/
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+
+}
+.footer p {
+   margin: 32px;
+   color: #e5e7eb;
+}
